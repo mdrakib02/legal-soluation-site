@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lefal Soluation</title>
+    <!-- ==== Tailwind css===== -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- =================Google Fonts========== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        .gb-raramand{
+            font-family: 'EB Garamond', serif;
+        }
+
+    </style>
+    <!-- Tail-wind color== -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'bike-primary': '#E76F51',
+                'bike-bg-primary': 'bg-orange-50rgba(231, 111, 81, 0.10)',
+              }
+            }
+          }
+        }
+      </script>
+      <!--  Background Img  -->
+
+</head>
+<body class="gb-raramand p-6">
+    <!-- ===================Header Sections========== -->
+    
+    <header class="container mx-auto pt-14">
+        <!-- Navber Sections -->
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <label tabindex="0" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </label>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100  rounded-box w-52">
+                <li><a>Home</a></li>
+                <li><a>Cases</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact Us</a></li>
+            </ul>
+              </div>
+              <img class="" src="./images/logo2.png" alt="">
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Home<img src="./Frame.png" alt=""></a></li>
+                <li><a>Cases<img src="./Frame.png" alt=""></a></li>
+                <li><a>Blog<img src="./Frame.png" alt=""></a></li>
+                <li><a>Contact Us<img src="./Frame.png" alt=""></a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class=" btn normal-case hover:text-[#B68C5A] hover:bg-white btn-active bg-[#B68C5A] text-xl font-bold">Free Consultation</a>
+            </div>
+          </div>
+    <!-- ============Banner Sections================= -->
+    <section class="my-5 lg:my-12">
+        <div class="hero lg:w[100%] h-[350px] lg:h-[650px] rounded-xl border-none bg-white shadow-sm" style="background-image: url(./images/banner.png);">
+            <div class="hero-overlay bg-opacity-50"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="">
+                <h1 class="mb-5 text-2xl font-bold lg:text-7xl lg:font-extrabold">We Provide Effective <br>
+                     Legal Solutions</h1>
+                <p class="mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
+                <div class="flex items-center justify-center gap-x-5">
+                    <input  type="text " placeholder="Search Your Services" class="input input-bordered w-[50%] lg:w-[60%] lg:pr-16" /> 
+                    <button class="btn btn-active hover:text-[#B68C5A] hover:bg-white bg-[#B68C5A] border-none rounded-xl">Search</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+    </section>
+    </header>
+    <!-- ====================Main Sections============= -->
+    <main></main>
+    <!-- ======================Footer Sections========== -->
+    <footer></footer>
+    
+</body>
+</html>
